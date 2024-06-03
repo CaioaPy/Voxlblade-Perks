@@ -21,6 +21,7 @@ void AirPressure(int perk) {
 void BastionBallista(int perk) {
     int dmg = 1 + (0.5 * perk);
     cout << "the base dmg is: " << dmg << endl;
+    cout << "this is the base dmg, Bastion Ballista also scales with dex and earth" << endl;
 }
 
 int main() {
