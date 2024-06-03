@@ -18,6 +18,11 @@ void AirPressure(int perk) {
     }
 }
 
+void BastionBallista(int perk) {
+    int dmg = 1 + (0.5 * perk);
+    cout << "the base dmg is: " << dmg << endl;
+}
+
 int main() {
 
 }
