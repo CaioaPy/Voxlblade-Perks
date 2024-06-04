@@ -10,11 +10,11 @@ void AirPressure(int perk) {
     }
     else if (perk = 1){
         reduct = 15;
-        cout << "the dmg reduction is: " << reduct << " at max stacks"<<  endl;
+        cout << "the dmg reduction is: " << reduct << "'%' at max stacks"<<  endl;
     }
     else {
         reduct = 15 + (5 * perk);
-        cout << "the dmg reduction is: " << reduct << " at max stacks"<<  endl;
+        cout << "the dmg reduction is: " << reduct << "'%' at max stacks"<<  endl;
     }
 }
 
